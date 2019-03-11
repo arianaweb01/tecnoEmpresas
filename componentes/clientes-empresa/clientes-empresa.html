@@ -1,0 +1,42 @@
+<div class="panel-default">
+    <div>
+        <h5>Clientes <img src="img/ico_clients.png" width="30px" /></h5>
+        <div class="empresa"></div>
+    </div>
+
+    <div class="container">
+        <div ng-repeat="cliente in clientes">
+            <hr style="
+                    width: 50%;
+                ">
+            <div class="row">
+                <div class="col-sm-4">
+                    <b>Nombre:</b>
+                    {{cliente.name}}
+                </div>
+                <div class="col-sm-4">
+                    <b>Teléfono:</b>
+                    {{cliente.offices[0].phone}}
+                </div>
+                <div class="col-sm-4">
+                    <b>País:</b>
+                    {{cliente.offices[0].country}}
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <b>Dirección:</b>
+                    {{cliente.offices[0].address}}
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

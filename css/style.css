@@ -1,0 +1,172 @@
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+.bg-dark {
+    background-color:#060843!important;
+}
+.searchform {
+margin-top: 0px;
+height: 38px;
+display: inline-block;
+ 
+zoom: 1; 
+ 
+*display: inline;
+ 
+border: solid 1px #d2d2d2;
+ 
+padding: 3px 5px;
+ 
+-webkit-border-radius: 2em;
+ 
+-moz-border-radius: 2em;
+ 
+border-radius: 2em;
+ 
+background: #f1f1f1;
+ 
+background: #fff;
+ 
+background: #fff;
+ 
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); 
+ 
+-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); 
+ 
+}
+ 
+.searchform input {
+ 
+font: normal 12px/100% Arial, Helvetica, sans-serif;
+ 
+}
+ 
+.searchform .searchfield {
+border-left-width: 5px;
+    padding-left: 4px;
+    height: 30px; 
+background: #fff;
+    vertical-align: top;
+ 
+padding: 6px 6px 6px 8px;
+ 
+width: 202px;
+ 
+border: solid 1px #fff;
+ 
+outline: none;
+ 
+-webkit-border-radius: 2em;
+ 
+-moz-border-radius: 2em;
+ 
+border-radius: 2em;
+ 
+
+ 
+}
+ 
+.searchform .searchbutton {
+ 
+color: #fff;
+ 
+font-size: 11px;
+ 
+height: 30px;
+ 
+width: 30px;
+ 
+-webkit-border-radius: 2em;
+ 
+-moz-border-radius: 2em;
+ 
+border-radius: 2em;
+ 
+background: #fff;
+ 
+background: #fff;
+ 
+background: #fff;
+ 
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie7 */
+ 
+-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie8 */
+ 
+}
+body {
+  padding-top: 0px;
+}
+
+.buscar{
+    text-align: right;
+    margin-right: 10px;
+}
+.c-derecha{
+text-align: right;
+}
+.h5, h5 {
+    font-size: 18px;
+    color: #030e53;
+}
+.titulo{
+    background-color: #ddd;
+}
+th {
+    font-weight: normal;
+    text-align: -internal-center;
+}
+.empresa
+    {
+        display: inline-block;
+        padding-left: 20px;
+    }
+    .panel-default {
+        border-color: #fff;
+    }
+    .table .table {
+        background-color: #fff0;
+        font-size: 11px;
+    }
+    .panel {
+        padding: 8px;
+        margin-bottom: 20px;
+        background-color: #fff0;
+        border: 1px solid #c3c0c0;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .titulo-producto {
+        margin-top: 100px;
+    }
+
+    img{
+        margin-left: 5px;
+    }
+
+    .titulo-empresa{
+        font-size: 15px !important;
+    }
+    .row
+    {
+        font-size: 11px !important;
+        margin-left: 30px;
+    }
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #333;
+    }

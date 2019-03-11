@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TecnoEmpresas</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.29/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <script src="/app.js"></script>
+    <script src="componentes/empresas-componente/empresa-componente.js"></script>
+    <script src="servicios/empresas-varias.js"></script>
+    <script src="componentes/informacion-empresa/informacion-empresa.js"></script>
+    <script src="componentes/empresas-componente/producto-empresa/producto-empresa.js"></script>
+    <script src="servicios/productos-servicio.js"></script>
+    <script src="componentes/clientes-empresa/clientes-empresa.js"></script>
+    <script src="servicios/clientes-empresa.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div style="
+            font-size: 18px;
+            margin-top: 7px;
+            color: white;
+            padding-left: 15px;
+        ">
+                TecnoEmpresas
+            </div>
+        </nav>
+        <div class="buscar">
+            <form class="searchform" ng-submit="search()">
+
+                <input class="searchbutton" type=image src="img/ico_search.png">
+                <input class="searchfield" type="text" placeholder="Buscar Empresa" />
+
+            </form>
+
+
+        </div>
+        <h5 class="card-title">Empresas</h5>
+        <empresa-componente></empresa-componente>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
