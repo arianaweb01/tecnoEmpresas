@@ -1,8 +1,12 @@
 angular.module('app')
+
     .directive('empresaComponente',
         function () {
             return {
                 restrict: 'E',
+                scope:{
+                    "buscar": '=buscar'
+                },
 
 
                 templateUrl: 'componentes/empresas-componente/empresa-plantilla.html',

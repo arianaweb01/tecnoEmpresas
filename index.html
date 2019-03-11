@@ -37,18 +37,8 @@
                 TecnoEmpresas
             </div>
         </nav>
-        <div class="buscar">
-            <form class="searchform" ng-submit="search()">
 
-                <input class="searchbutton" type=image src="img/ico_search.png">
-                <input class="searchfield" type="text" placeholder="Buscar Empresa" />
-
-            </form>
-
-
-        </div>
-        <h5 class="card-title">Empresas</h5>
-        <empresa-componente></empresa-componente>
+        <empresa-componente buscar="buscar"></empresa-componente>
 
     </div>
 
