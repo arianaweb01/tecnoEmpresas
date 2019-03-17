@@ -115,6 +115,7 @@ body {
 }
 .c-derecha{
 text-align: right;
+    font-style: italic;
 }
 .h5, h5 {
     font-size: 18px;
@@ -169,4 +170,8 @@ th {
         margin-bottom: 20px;
         border: 0;
         border-top: 1px solid #333;
+    }
+
+    .nombre-empresa{
+        color: #337ab7;
     }
